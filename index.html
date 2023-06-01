@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+    <title>Document</title>
+</head>
+<body id="index"> 
+        <ul>
+            <li><a href="http://www.graciebarra.com">Grace Barra</a></li>
+            <li><a href="http://jackson-wink-mma-academy.webflow.io">Jackson Wink</a></li>
+            <li><a href="http://skisantafe.com">Santa Fe Ski Resort</a></li>
+            <li><a href="./contact.html">Contact</a> </li>
+        </ul>
+   <div class="container">
+   <main>
+        <div class="hero-text">
+            <h1 style="font-size: 25px;">Troy McCormick</h1>
+            <p></p>
+        </div>
+        <article>
+            <h1>Jui Jitsu</h1>
+            <p><small>In Seattle Washnigton I began training jui-jitsu.  The schools range from James Fosters jui-jitsu, to a small school
+                by the University of Washington called Mat Chess MMA.  At first it was slow going.  I also worked at ups, bounced at
+                bars and also worked at City Hall of Seattle as security.  Weight training was also essential, everyday building my
+                strength.  Eventually I moved to Albuqeruque, New Mexico. I began training at Gracie Barra, to continue my skills.
+            </small></p>
+            <figure>
+                <img src="images/Gracie.4.jpg" alt="Gracie match">
+            </figure>
+        </article>
+
+    <div>
+        <article class="info-box">
+            <h1>MMA</h1>
+            
+            <p><small>Once I moved to Albuquerque, training with Gracie Barra I became an MMA Fighter.  Started MMA taining at Jackson Wink Academy.
+                At first the amatuer school, and then at the Pro Academy. Then after some time I went to Los Angeles to study boxing at Wild Card.  
+                Freddie Roach was the trainer of Mannny Pacquio.  My trainer was Justin Juko, who fought Mayweather in 2015. This was the second time
+                my nose was bloodied.
+            </small></p>
+            <figure>
+                <img src="images/Greatestfightersquote.2.jpg" alt="Fighters Quote">
+                
+            </figure>
+        </article>
+    </div>
+    <div>
+        <article>
+            <h1>Santa Fe Ski Area</h1>
+            <p><small>When I was 25yrs old, I was a snowboard enthusiast.  Santa Fe Ski Area was one of the best mountains at which I boarded. Wolf
+                Creek in Pagossa Springs, Colorado was also a great mountain to visit.  Although trips has to end when the weekend was over, good times
+                were had. The best experience was a night we missed the last tram car to the bottom, my brother and friends snowboarded down the mountain
+                in fresh powder and the moonlight. Perfect! My freind gave us a ride around the mountain to where we were parked. An ironman race is in the near
+                future!
+            </small></p>
+            <figure>
+                <img src="images/Snowboarding.2.jpg" alt="Fun times">
+                <img src="images/Ironman.2.jpg" aqlt="Ironman">
+            </figure>
+        </article>
+    </div>
+    
+<h2>Random Photos</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/NewMexico.1.png" style="width:75%">
+  <div class="text">New Mexico State</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/Gracie.2.jpg" style="width:70%">
+  <div class="text">Gracie Barra</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="./images/boards.store.jpg" style="width:63%">
+  <div class="text">Challenge</div>
+</div>
+<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="./images/jwlogos.1.jpg" style="width:80%">
+    <div class="text">JWFight</div>
+  </div>
+</div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+</main>
+   <aside><br>
+    
+    <div>
+        <article>
+            <img src="images/TroyNicole.1.jpg" alt="Chicago Pic">
+            <div class="info-box">
+                <h2>Troy Mccormick</h2>
+                <p>1400 N. Lakeshore Dr.</p>
+                <p>Chicago, Illinois, 60610</p>
+                <p>555-777-9999</p>
+                <p><a href="mailto:tmccormick@gmail.com">tmccormick@gmailcom</a></p>
+        </div>
+        </article>
+    </div>
+   </aside>
+</div>
+>    <div class="footer">
+        <div class="footer-1">
+            <ul>
+                <li><a href="http://www.graciebarra.com">Grace Barra</a></li>
+                <li><a href="http://jackson-wink-mma-academy.webflow.io">Jackson Wink</a></li>
+                <li><a href="http://skisantafe.com">Santa Fe Ski Resort</a></li>
+                <li><a href="./contact.html">Contact</a> </li>
+            </ul>
+    </div>
+</div>
+</footer>
+</body>
+</html>

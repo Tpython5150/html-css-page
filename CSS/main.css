@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#index{ 
+  background-image:url(Snowboarding.1.webp);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+
+}
+h1 {
+text-align:center;
+}
+ 
+ul{ 
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: black;
+
+}
+li {
+  float:left;
+} 
+li a {
+  display:block;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: rgb(192, 57, 57);
+}
+.container{
+  display:flex;
+ 
+}
+
+main{
+ 
+  width:75%;
+
+}
+aside{
+  
+  width:25%;
+  padding-left:1%;
+  
+}
+img{border-radius: 3%;}
+.info-box{
+  background-color: rgba(240, 245, 241, 0.589);
+  color:black;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position:relative;
+margin: left;
+}
+
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: relative;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+.footer{
+border:1px solid black;
+background-color: rgba(48, 5, 46, 0.747);
+color:white;
+margin:0px;
+height:60px;
+}
+#contact{
+  background-image:url(Gracie.3.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+ 
+
